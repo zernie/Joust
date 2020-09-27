@@ -1,8 +1,7 @@
 node_modules
-dist
 
 VERSION
-enums.d.ts
+enums.ts
 
 # outdated, but keep around
 less/**/*.css

@@ -13,7 +13,8 @@
 	"license": "UNLICENSED",
 	"author": "Benedict Etzel <benedict@hearthsim.net>",
 	"main": "main.js",
-	"types": "dist/run.d.ts",
+	"browser": "dist/joust.js",
+	"types": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/HearthSim/Joust.git"
@@ -22,7 +23,6 @@
 		"build": "gulp compile:web",
 		"dev": "concurrently 'gulp watch:html watch:assets watch:styles' 'webpack --watch -d'",
 		"test": "karma start --single-run --no-auto-watch karma.conf.js",
-		"postinstall": "gulp enums:download",
 		"lint": "yarn lint:tslint; yarn lint:prettier",
 		"lint:tslint": "tslint --project tsconfig.json",
 		"lint:prettier": "prettier -l \"*.{js,json}\" \"ts/**/*.{ts,tsx,js}\"",

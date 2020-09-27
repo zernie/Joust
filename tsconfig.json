@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"declaration": true,
 		"declarationDir": "dist",
+		"outDir": "",
 		"jsx": "react",
 		"moduleResolution": "node",
 		"noImplicitAny": false,
