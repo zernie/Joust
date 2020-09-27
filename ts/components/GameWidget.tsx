@@ -56,7 +56,7 @@ export interface GameWidgetProps
 	replayFilename?: string;
 }
 
-interface State {
+export interface State {
 	gameState: GameState;
 	swapPlayers: boolean;
 	isFullscreen: boolean;

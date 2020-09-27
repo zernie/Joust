@@ -1,13 +1,13 @@
 import * as React from "react";
 import * as _ from "lodash";
 
-interface LocaleSelectorProps extends React.ClassAttributes<LocaleSelector> {
+export interface LocaleSelectorProps extends React.ClassAttributes<LocaleSelector> {
 	locale: string;
 	selectLocale: (locale: string, loaded?: () => void) => void;
 	disabled?: boolean;
 }
 
-interface LocaleSelectorState {
+export interface LocaleSelectorState {
 	loading?: boolean;
 }
 

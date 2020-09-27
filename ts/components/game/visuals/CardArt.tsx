@@ -2,13 +2,13 @@ import * as React from "react";
 import * as _ from "lodash";
 import { AssetDirectoryProps, CardArtDirectory } from "../../../interfaces";
 
-interface CardArtItem {
+export interface CardArtItem {
 	image: string;
 	isArt?: boolean;
 	classes: Array<String>;
 }
 
-interface CardArtProps
+export interface CardArtProps
 	extends AssetDirectoryProps,
 		CardArtDirectory,
 		React.ClassAttributes<CardArt> {
@@ -18,7 +18,7 @@ interface CardArtProps
 	margin: boolean;
 }
 
-interface CardArtState {
+export interface CardArtState {
 	height?: number;
 }
 

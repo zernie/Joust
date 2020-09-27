@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
-		"declaration": false,
+		"declaration": true,
+		"declarationDir": "dist",
 		"jsx": "react",
 		"moduleResolution": "node",
 		"noImplicitAny": false,
@@ -10,5 +11,6 @@
 		"suppressImplicitAnyIndexErrors": true,
 		"allowSyntheticDefaultImports": true,
 		"target": "es6"
-	}
+	},
+	"include": ["ts"]
 }

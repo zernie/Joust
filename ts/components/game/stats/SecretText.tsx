@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface SecretTextProps extends React.ClassAttributes<SecretText> {
+export interface SecretTextProps extends React.ClassAttributes<SecretText> {
 	text: string;
 	title?: string;
 }

@@ -5,7 +5,7 @@ import Cost from "./stats/Cost";
 import Card from "./Card";
 import HeroPowerArt from "./visuals/HeroPowerArt";
 
-interface HeroPowerProps extends EntityInPlayProps {
+export interface HeroPowerProps extends EntityInPlayProps {
 	activated?: boolean;
 }
 

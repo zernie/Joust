@@ -3,7 +3,7 @@ import * as React from "react";
 import { OptionProps } from "../../interfaces";
 import Player from "../../Player";
 
-interface EndTurnButtonProps
+export interface EndTurnButtonProps
 	extends OptionProps,
 		React.ClassAttributes<EndTurnButton> {
 	onlyOption?: boolean;

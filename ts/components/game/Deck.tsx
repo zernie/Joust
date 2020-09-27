@@ -2,7 +2,7 @@ import * as React from "react";
 import EntityList from "./EntityList";
 import { EntityListProps } from "../../interfaces";
 
-interface DeckProps extends EntityListProps {
+export interface DeckProps extends EntityListProps {
 	fatigue: number;
 	hideFatigue?: boolean;
 }

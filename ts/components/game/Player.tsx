@@ -39,7 +39,7 @@ import GameStateDescriptor from "../../state/GameStateDescriptor";
 import Game from "../../Game";
 import { isBattlegrounds } from "../../utils";
 
-interface PlayerProps
+export interface PlayerProps
 	extends OptionCallbackProps,
 		CardDataProps,
 		CardOracleProps,

@@ -20,7 +20,7 @@ import LoadingScreen from "./LoadingScreen";
 import * as bowser from "bowser";
 import { cookie } from "cookie_js";
 
-interface GameWrapperProps
+export interface GameWrapperProps
 	extends CardDataProps,
 		CardOracleProps,
 		MulliganOracleProps,
@@ -37,7 +37,7 @@ interface GameWrapperProps
 	playerNames?: string[] | null;
 }
 
-interface GameWrapperState {
+export interface GameWrapperState {
 	warnAboutBrowser?: boolean;
 }
 

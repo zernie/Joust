@@ -3,7 +3,7 @@ import GameState from "../state/GameState";
 import { GameTag } from "../enums";
 import { isBattlegrounds } from "../utils";
 
-interface TurnProps extends React.ClassAttributes<Turn> {
+export interface TurnProps extends React.ClassAttributes<Turn> {
 	state?: GameState;
 	mulligan?: boolean;
 	totalDuration: number;

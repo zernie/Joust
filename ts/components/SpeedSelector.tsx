@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as _ from "lodash";
 
-interface SpeedSelectorProps extends React.ClassAttributes<SpeedSelector> {
+export interface SpeedSelectorProps extends React.ClassAttributes<SpeedSelector> {
 	speed: number;
 	speeds: number[];
 	selectSpeed: (speed: number) => void;

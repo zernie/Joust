@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface DamageProps extends React.ClassAttributes<Damage> {
+export interface DamageProps extends React.ClassAttributes<Damage> {
 	damage: number;
 }
 

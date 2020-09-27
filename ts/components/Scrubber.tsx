@@ -7,7 +7,7 @@ import { cookie } from "cookie_js";
 import * as _ from "lodash";
 import Settings from "./Settings";
 
-interface ScrubberProps
+export interface ScrubberProps
 	extends KeybindingProps,
 		LocaleProps,
 		React.ClassAttributes<Scrubber> {
@@ -30,7 +30,7 @@ interface ScrubberProps
 	replayFilename?: string;
 }
 
-interface ScrubberState {
+export interface ScrubberState {
 	playing?: boolean;
 	canInteract?: boolean;
 	canRewind?: boolean;

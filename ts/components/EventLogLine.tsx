@@ -9,7 +9,7 @@ import {
 import EventLogCard from "./EventLogCard";
 import { CardData } from "hearthstonejson-client";
 
-interface EventLogLineProps
+export interface EventLogLineProps
 	extends CardDataProps,
 		CardOracleProps,
 		EventLogItemData,
@@ -19,7 +19,7 @@ interface EventLogLineProps
 	first?: boolean;
 }
 
-interface EventLogLineState {
+export interface EventLogLineState {
 	entityData?: CardData;
 	targetData?: CardData;
 }

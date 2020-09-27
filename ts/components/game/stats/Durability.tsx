@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface DurabilityProps extends React.ClassAttributes<Durability> {
+export interface DurabilityProps extends React.ClassAttributes<Durability> {
 	durability: number;
 	damage: number;
 	default?: number;

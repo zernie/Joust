@@ -24,7 +24,7 @@ import {
 import Player from "../Player";
 import Entity from "../Entity";
 
-interface EventLogProps
+export interface EventLogProps
 	extends CardDataProps,
 		CardOracleProps,
 		StripBattletagsProps,
@@ -35,7 +35,7 @@ interface EventLogProps
 	isHidden?: boolean;
 }
 
-interface EventLogState {
+export interface EventLogState {
 	lines: EventLogItemData[];
 }
 

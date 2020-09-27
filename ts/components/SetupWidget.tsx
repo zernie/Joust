@@ -13,7 +13,7 @@ import GameStateSink from "../state/GameStateSink";
 import { CardOracle } from "../interfaces";
 import * as Stream from "stream";
 
-interface SetupWidgetProps extends React.ClassAttributes<SetupWidget> {
+export interface SetupWidgetProps extends React.ClassAttributes<SetupWidget> {
 	defaultHostname: string;
 	defaultPort: number;
 	autoloadReplay?: string;
@@ -28,7 +28,7 @@ interface SetupWidgetProps extends React.ClassAttributes<SetupWidget> {
 	) => void;
 }
 
-interface SetupWidgetState {
+export interface SetupWidgetState {
 	working?: boolean;
 	hostname?: string;
 	port?: number;

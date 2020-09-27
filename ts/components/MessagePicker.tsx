@@ -1,12 +1,12 @@
 import * as React from "react";
 
-interface MessagePickerProps extends React.ClassAttributes<MessagePicker> {
+export interface MessagePickerProps extends React.ClassAttributes<MessagePicker> {
 	messages: string[];
 	interval: number;
 	random?: boolean;
 }
 
-interface MessagePickerState {
+export interface MessagePickerState {
 	message?: number;
 	sequence?: number[];
 }

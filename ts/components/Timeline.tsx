@@ -4,7 +4,7 @@ import { StreamScrubberInhibitor } from "../interfaces";
 import GameState from "../state/GameState";
 import Turn from "./Turn";
 
-interface TimelineProps extends React.ClassAttributes<Timeline> {
+export interface TimelineProps extends React.ClassAttributes<Timeline> {
 	at: number;
 	duration: number;
 	seek: (time: number) => void;
@@ -13,7 +13,7 @@ interface TimelineProps extends React.ClassAttributes<Timeline> {
 	swapPlayers?: boolean;
 }
 
-interface TimelineState {
+export interface TimelineState {
 	isDragging?: boolean;
 }
 

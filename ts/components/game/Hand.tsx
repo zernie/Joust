@@ -6,7 +6,7 @@ import Option from "../../Option";
 import Card from "./Card";
 import { EntityListProps } from "../../interfaces";
 
-interface HandProps extends EntityListProps {
+export interface HandProps extends EntityListProps {
 	setAside?: Immutable.Iterable<number, Entity>;
 }
 

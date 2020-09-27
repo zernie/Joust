@@ -11,7 +11,7 @@ import { CardClass, CardType, GameTag } from "../../enums";
 import Durability from "./stats/Durability";
 import { CardData } from "hearthstonejson-client";
 
-interface CardProps
+export interface CardProps
 	extends EntityProps,
 		OptionProps,
 		React.ClassAttributes<Card> {

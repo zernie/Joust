@@ -21,7 +21,7 @@ import { GameTag } from "../../enums";
 import Choices from "../../Choices";
 import Game from "../../Game";
 
-interface TwoPlayerGameProps
+export interface TwoPlayerGameProps
 	extends EntityProps,
 		CardDataProps,
 		CardOracleProps,

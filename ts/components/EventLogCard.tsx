@@ -1,7 +1,7 @@
 import * as React from "react";
 import { CardDataProps } from "../interfaces";
 
-interface EventLogCardProps
+export interface EventLogCardProps
 	extends CardDataProps,
 		React.ClassAttributes<EventLogCard> {
 	cardId: string;

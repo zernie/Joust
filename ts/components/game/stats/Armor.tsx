@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface ArmorProps extends React.ClassAttributes<Armor> {
+export interface ArmorProps extends React.ClassAttributes<Armor> {
 	armor: number;
 }
 

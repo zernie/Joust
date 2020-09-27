@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface HealingProps extends React.ClassAttributes<Healing> {
+export interface HealingProps extends React.ClassAttributes<Healing> {
 	healing: number;
 }
 

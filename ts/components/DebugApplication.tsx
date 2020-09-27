@@ -7,12 +7,12 @@ import GameStateSink from "../state/GameStateSink";
 import GameStateScrubber from "../state/GameStateScrubber";
 import * as _ from "lodash";
 
-const enum Widget {
+export const enum Widget {
 	SETUP,
 	GAME,
 }
 
-interface DebugState {
+export interface DebugState {
 	currentWidget?: Widget;
 	cards?: CardData[];
 	sink?: GameStateSink;
@@ -25,7 +25,7 @@ interface DebugState {
 	replayFilename?: string;
 }
 
-interface DebugProps extends React.ClassAttributes<DebugApplication> {
+export interface DebugProps extends React.ClassAttributes<DebugApplication> {
 	replay?: string;
 }
 

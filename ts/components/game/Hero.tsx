@@ -14,7 +14,7 @@ import { GameTag, MetaDataType } from "../../enums";
 import MetaData from "../../MetaData";
 import GameStateDescriptor from "../../state/GameStateDescriptor";
 
-interface HeroProps extends EntityInPlayProps, CardOracleProps {
+export interface HeroProps extends EntityInPlayProps, CardOracleProps {
 	secrets: Immutable.Map<number, Entity>;
 }
 

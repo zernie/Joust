@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface HealthProps extends React.ClassAttributes<Health> {
+export interface HealthProps extends React.ClassAttributes<Health> {
 	health: number;
 	damage: number;
 	default?: number;

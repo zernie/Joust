@@ -5,7 +5,7 @@ import Entity from "../../../Entity";
 import CardArt from "./CardArt";
 import { EntityProps } from "../../../interfaces";
 
-interface HeroArtProps extends EntityProps {
+export interface HeroArtProps extends EntityProps {
 	secrets: Immutable.Map<number, Entity>;
 }
 

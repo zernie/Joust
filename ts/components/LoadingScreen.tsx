@@ -1,7 +1,7 @@
 import * as React from "react";
 import MessagePicker from "./MessagePicker";
 
-interface LoadingScreenProps extends React.ClassAttributes<LoadingScreen> {
+export interface LoadingScreenProps extends React.ClassAttributes<LoadingScreen> {
 	players?: string[];
 }
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface AttackProps extends React.ClassAttributes<Attack> {
+export interface AttackProps extends React.ClassAttributes<Attack> {
 	attack: number;
 	default?: number;
 }

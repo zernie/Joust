@@ -6,7 +6,7 @@ import Option from "../../Option";
 import Minion from "./Minion";
 import { EntityListProps } from "../../interfaces";
 
-interface FieldProps extends EntityListProps {
+export interface FieldProps extends EntityListProps {
 	buffedEntities?: number[];
 }
 

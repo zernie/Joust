@@ -3,7 +3,7 @@ import { CardClass, CardType } from "../../../enums";
 import CardArt from "./CardArt";
 import { EntityProps } from "../../../interfaces";
 
-interface InHandCardArtProps
+export interface InHandCardArtProps
 	extends EntityProps,
 		React.ClassAttributes<InHandCardArt> {
 	hidden: boolean;

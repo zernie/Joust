@@ -1,6 +1,6 @@
 import * as React from "react";
 
-interface CostProps extends React.ClassAttributes<Cost> {
+export interface CostProps extends React.ClassAttributes<Cost> {
 	cost: number;
 	default?: number;
 }

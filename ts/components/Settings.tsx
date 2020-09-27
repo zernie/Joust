@@ -1,7 +1,7 @@
 import * as React from "react";
 import LocaleSelector from "./LocaleSelector";
 
-interface SettingsProps extends React.ClassAttributes<Settings> {
+export interface SettingsProps extends React.ClassAttributes<Settings> {
 	locale: string;
 	onSelectLocale?: (locale: string, loaded?: () => void) => void;
 	isLogVisible: boolean;

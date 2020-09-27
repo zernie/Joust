@@ -7,7 +7,7 @@ import Card from "./Card";
 import { EntityListProps, MulliganOracleProps } from "../../interfaces";
 import Choice from "../../Choice";
 
-interface ChoicesProps extends EntityListProps, MulliganOracleProps {
+export interface ChoicesProps extends EntityListProps, MulliganOracleProps {
 	isMulligan: boolean;
 	choices: Immutable.Map<number, Choice>;
 }
