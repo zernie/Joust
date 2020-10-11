@@ -12,8 +12,7 @@
 	},
 	"license": "UNLICENSED",
 	"author": "Benedict Etzel <benedict@hearthsim.net>",
-	"main": "main.js",
-	"browser": "dist/joust.js",
+	"main": "dist/joust.js",
 	"types": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
